@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscussionDesktop", "DiscussionDesktop\DiscussionDesktop.csproj", "{32F909DB-5277-4A7D-B689-B7FC3CCA981C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CD9DAB1-FB62-4C24-8AEF-239D81ED122A} = {5CD9DAB1-FB62-4C24-8AEF-239D81ED122A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService_DiscussionWeb", "WebService_DiscussionWeb\WebService_DiscussionWeb.csproj", "{5CD9DAB1-FB62-4C24-8AEF-239D81ED122A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F909DB-5277-4A7D-B689-B7FC3CCA981C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F909DB-5277-4A7D-B689-B7FC3CCA981C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F909DB-5277-4A7D-B689-B7FC3CCA981C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F909DB-5277-4A7D-B689-B7FC3CCA981C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD9DAB1-FB62-4C24-8AEF-239D81ED122A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD9DAB1-FB62-4C24-8AEF-239D81ED122A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD9DAB1-FB62-4C24-8AEF-239D81ED122A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD9DAB1-FB62-4C24-8AEF-239D81ED122A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC4C8CF1-1274-44B6-8B70-3008FE9746F6}
+	EndGlobalSection
+EndGlobal
